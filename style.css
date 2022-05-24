@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', cursive;
+}
+
+#app {
+  background-color: #333;
+  color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  min-height: 100vh;
+}
+
+.clear-button {
+  appearance: none;
+  background-color: rgb(198, 128, 200);
+  color: #e3e3e3;
+  padding: .2rem;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.box {
+  font-size: larger;
+  font-weight: bold;
+  background-color: red;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.bg-red {
+  background-color: rgb(225, 106, 91);
+}
+
+.bg-green {
+  background-color: rgb(124, 221, 133);
+}
+
+.bg-blue {
+  background-color: rgb(51, 117, 222);
+}
+
+.bg-purple {
+  background-color: rgb(172, 54, 222);
+}
+
+.text-red {
+  color: rgb(225, 106, 91);
+}
+
+.text-green {
+  color: rgb(124, 221, 133);
+}
+
+.text-blue {
+  color: rgb(51, 117, 222);
+}
+
+.text-purple {
+  color: rgb(172, 54, 222);
+}
